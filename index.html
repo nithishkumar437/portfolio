@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nithish Kumar's personal portfolio">
+  <title>Nithish Kumar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a class="logo" href="#home">NITHISH<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a class="contact-nav" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="green-dot"></span> B.TECH STUDENT · 2023–2027</p>
+        <p class="hello">Hello, I'm</p>
+        <h1>Nithish <span>Kumar</span></h1>
+        <h2>Python Developer &amp; Web Development Learner</h2>
+        <p class="description">I enjoy building useful digital experiences, learning new technologies and<br class="desktop-break"> solving problems through code.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:kumarnithish32540@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="photo-frame">
+          <img src="NITHISH.jpeg" alt="Nithish Kumar profile photo"
+               onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid'">
+          <div class="photo-fallback" id="photoFallback"><strong>NK</strong><small>Add your photo as<br>profile.jpg</small></div>
+        </div>
+        <div class="floating-label">Always learning ✦</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-kicker">GET TO KNOW ME</p><h2>About <span>Me</span></h2>
+      <div class="panel"><div class="initials">NK<span>.</span></div><div>
+        <h3>Curious mind. Practical builder.</h3>
+        <p>I'm Nithish Kumar, a B.Tech student from the 2023–2027 batch. I'm interested in Python programming and web development. I have internship experience at Litz Tech and enjoy learning new technologies by building projects.</p>
+      </div></div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-kicker">WHAT I WORK WITH</p><h2>My <span>Skills</span></h2>
+      <div class="cards">
+        <article class="card"><b>Py</b><h3>Python</h3><p>Programming fundamentals</p></article>
+        <article class="card"><b>5</b><h3>HTML</h3><p>Web page structure</p></article>
+        <article class="card"><b>#</b><h3>CSS</h3><p>Styling and layouts</p></article>
+        <article class="card"><b>JS</b><h3>JavaScript</h3><p>Web interactivity</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section-kicker">MY WORK</p><h2>Featured <span>Project</span></h2>
+      <article class="project panel">
+        <div class="project-icon">✚<small>PYTHON PROJECT</small></div>
+        <div><p class="section-kicker">PYTHON · MANAGEMENT SYSTEM</p><h3>Hospital Management System</h3>
+          <p>A Python-based project focused on hospital management workflows. Add the exact features and tools you implemented before publishing.</p>
+          <div class="tags"><span>Python</span><span>Programming</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="certificates">
+      <p class="section-kicker">PROOF OF LEARNING</p><h2>My <span>Certificates</span></h2>
+      <p class="subtext">Replace these sample titles and PDF files with your real certificates.</p>
+      <div class="cards certificate-cards">
+        <article class="certificate"><div class="certificate-cover">PDF<small>CERTIFICATE 01</small></div><div class="certificate-info"><div><h3>Certificate title 1</h3><p>Organization · Year</p></div><a href="certificate-1.pdf" target="_blank">View ↗</a></div></article>
+        <article class="certificate"><div class="certificate-cover cover-two">PDF<small>CERTIFICATE 02</small></div><div class="certificate-info"><div><h3>Certificate title 2</h3><p>Organization · Year</p></div><a href="certificate-2.pdf" target="_blank">View ↗</a></div></article>
+        <article class="certificate"><div class="certificate-cover cover-three">PDF<small>CERTIFICATE 03</small></div><div class="certificate-info"><div><h3>Certificate title 3</h3><p>Organization · Year</p></div><a href="certificate-3.pdf" target="_blank">View ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="resume panel"><div><p class="section-kicker">MY RESUME</p><h2>Want to know more?</h2><p>Open or download my latest resume.</p></div><a class="btn primary" href="resume.pdf" download>Download resume ↓</a></div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="section-kicker">LET'S CONNECT</p><h2>Contact <span>Me</span></h2>
+      <div class="panel contact"><h3>Have an opportunity or idea?</h3><p>Feel free to connect with me.</p><a href="mailto:kumarnithish32540@gmail.com">✉ &nbsp; kumarnithish32540@gmail.com</a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Nithish Kumar</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
